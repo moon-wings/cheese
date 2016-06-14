@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>五子棋</title>
+	<link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+	
+	<canvas id="canvas" width="600" height="600"></canvas>
+	<div class="cartel">
+		<div class="tips">
+		    <h6 id="tishi">黑棋胜</h6>
+		    <i id="close"></i>
+		    <div id="left"></div>
+		    <div id="right"></div>
+		    <a href="" class="win">胜负已分</a>
+			<span id="restart">再来一局</span>
+			<span id="qipu">生成棋谱</span>
+	    </div>
+	</div>
+	<a id="save" href="" download="">保存棋谱</a>
+
+	
+	<audio id="black" src="./musics/097.wav"></audio>
+	<audio id="white" src="./musics/104.wav"></audio>
+
+
+
+   <script src="bower_components/jquery/dist/jquery.js"></script>
+	<script src="js/index.js"></script>
+</body>
+</html>
